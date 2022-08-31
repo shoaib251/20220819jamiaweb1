@@ -10,11 +10,11 @@
     font-family: Jameel Noori Nastaleeq;
 }
  .header{
-
+margin-bottom: 35px;
     min-height: 100vh;
     width: 100%;
 
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(4.jpg);
+    background-image: linear-gradient(rgba(4, 4, 18, 0.7),rgba(4,9,30,0.7)),url(4.jpg);
     background-position: center;
     background-size: cover; 
 
@@ -92,7 +92,7 @@ nav img{
 }
 .hero-btn:hover{
     border: 1px solid #f44336;
-    background: #f44336;
+    background-color: #fff3f3;
     transition: 1s;
 }
     nav.fa{
@@ -137,10 +137,10 @@ nav img{
 /*------course------*/
 
 .course{
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin-top: px;
     text-align: center;
-    padding: 100px;
+    padding: 0%;
 }
 h1{
     font-size: 40px;
@@ -163,18 +163,20 @@ h5{
     color: rgb(15, 15, 218);
 }
 .row{
-    margin-top: 5%;
+    margin-top: 0%;
     display: flex;
     justify-content: space-between;
+
 }
 .course-col{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 15px;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    
 }
 h3{
     text-align: center;
@@ -201,7 +203,7 @@ h3{
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     text-align: right;
 }
 .facilities-col img{
@@ -212,7 +214,7 @@ h3{
     padding: 0;
 }
 .facilities-col h3{
-    margin-top: 16px;
+    margin-top: px;
     margin-bottom: 15px;
     text-align: right;
 }
@@ -361,38 +363,11 @@ body{
     margin-left: 15px;
     width: 1330px;
     height: 450px;
-
 }
 
 
 
 
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@shoaib251 
-hidayatkhan
-/
-jamia-ashrfia-website
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-jamia-ashrfia-website/style.css
-@hidayatkhan
-hidayatkhan Add files via upload
-Latest commit 2324451 2 hours ago
- History
- 1 contributor
-137 lines (119 sloc)  1.89 KB
 
 *{
 	margin: 0;
@@ -435,7 +410,7 @@ Latest commit 2324451 2 hours ago
 /* banner */
 
 #banner-container{
-	background-color: #074241;
+	background-color: #fff3f3;
 	color: #fff !important;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -528,11 +503,21 @@ Latest commit 2324451 2 hours ago
 		padding-top:20px;
 	}
 	.social-col{
-		width: 33%;
+		width: 100%;
 	}
 }
 
 
+
+.grid{display: grid;
+    place-items: center;
+    background-color: #fff3f3;
+    width: 50%;
+    margin-top: 10px;
+    height:490px;
+    border-radius: 10px;
+
+}
 
 
 
