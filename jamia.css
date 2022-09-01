@@ -1,14 +1,26 @@
-@font-face {
+/* @font-face {
     font-family: Jameel Noori Nastaleeq;
-    src: url(Jameel Noori Nastaleeq Regular.ttf);
-  }
+    src: url('Jameel Noori Nastaleeq Regular.ttf');
+  } */
+@font-face{
+    font-family: Jameel noori nastaleeq;
+    src: url('Jameel Noori Nastaleeq Regular.ttf');
 
+}
+body{
+    font-family:jameel noori nastalee;
+}
 
-*{
-    margin: 0;
-    padding: 0;
+٭{
     font-family: Jameel Noori Nastaleeq;
 }
+/* 
+#{
+    margin: 2px;
+    padding: 2px;
+    font-family:Jameel Noori Nastaleeq;
+    
+} */
  .header{
 margin-bottom: 35px;
     min-height: 100vh;
@@ -33,6 +45,8 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    /* width: 30px; */
+    /* background-color: #fff; */
 }
 .nav-links ul li{
     list-style: none;
@@ -66,6 +80,7 @@ nav img{
     left: 5%;
     translate: (-50%,-50%);
     text-align: center;
+    font-family: jameel noori nastaleeq;
     
 }
 .text-box h1{
@@ -77,6 +92,7 @@ nav img{
     font-size: 20px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     color: #fff;
+    
 }
 .hero-btn{
     display: inline-block;
@@ -140,7 +156,7 @@ nav img{
     width: 90%;
     margin-top: px;
     text-align: center;
-    padding: 0%;
+    padding: 2%;
 }
 h1{
     font-size: 40px;
@@ -166,14 +182,14 @@ h5{
     margin-top: 0%;
     display: flex;
     justify-content: space-between;
-
+padding-bottom: 5px;
 }
 .course-col{
-    flex-basis: 31%;
+    flex-basis: 32%;
     background: #fff3f3;
     border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 20px 12px;
+    margin-bottom: 5px;
+    padding: 5px 5px;
     box-sizing: border-box;
     transition: 0.5s;
     
@@ -355,7 +371,7 @@ h3{
 body{
     display: grid;
     place-items: center;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 
@@ -521,10 +537,15 @@ body{
 
 
 
+html,a,h1,body,p,h2,h3{
+    font-family: jameel noori nastaleeq;
+}
 
 
-
-
+.dive{
+    display: grid;
+    place-items: center;
+}
 
 
 
